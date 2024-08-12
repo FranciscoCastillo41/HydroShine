@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Hydroshine Auto Spa</title>
+    <meta name="title" content="Hydroshine Auto Spa" />
+    <meta name="description" content="This is a car detailing webpage." />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/android-chrome-512x512.png"
+      type="images"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Hydroshine</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Dallas Fort Worth and Houston TX, United States
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Avaiable Daily : 7.30 am to 6.30 pm</span>
+        </div>
+
+        <a href="tel:+18322574528" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+1 832 257 4528 </span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:hydroshinespa@gmail.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">hydroshinespa@gmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.png"
+            width="160"
+            height="50"
+            alt="Hydroshine - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.png"
+              width="160"
+              height="50"
+              alt="Hydroshine - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#packages" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Packages</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              Dallas Fort Worth, Houston TX, <br />
+              United States
+            </address>
+
+            <p class="body-4 navbar-text">Available: 7.30 am - 6.30pm</p>
+
+            <a href="mailto:hydroshinespa@gmail.com" class="body-4 sidebar-link"
+              >hydroshinespa@gmail.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:+18322574528"
+              class="body-1 contact-number hover-underline"
+            >
+              +1 832 257 4528
+            </a>
+          </div>
+        </nav>
+
+        <a href="#packages" class="btn btn-secondary">
+          <span class="text text-1">Schedule A Detail</span>
+
+          <span class="text text-2" aria-hidden="true">Schedule A Detail</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-1.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Mobile Auto Detailing Experts
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Hydroshine Auto Spa <br />
+                Your Mobile Car Cleaning Solution
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Experience the luxury of a sparkling-clean vehicle, delivered to
+                you.
+              </p>
+
+              <a href="#packages" class="btn btn-primary slider-reveal">
+                <span class="text text-1"
+                  >Discover Packages</span
+                >
+
+                <span class="text text-2" aria-hidden="true"
+                  >Discover Packages</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-2.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Elevated Car Cleaning Services
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Masterful Detailing Craftsmanship <br />
+                Brought to Your Doorstep
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Immerse yourself in the luxury of our mobile car detailing
+                expertise.
+              </p>
+
+              <a href="#packages" class="btn btn-primary slider-reveal">
+                <span class="text text-1"
+                  >Explore Our Mobile Car Detailing Services</span
+                >
+
+                <span class="text text-2" aria-hidden="true"
+                  >Explore Our Mobile Car Detailing Services</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-3.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Luxurious Mobile Car Care
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Every Detail Perfected On-The-Go <br />
+                with Hydroshine Auto Spa
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Indulge in automotive opulence wherever you are.
+              </p>
+
+              <a href="#packages" class="btn btn-primary slider-reveal">
+                <span class="text text-1"
+                  >Book Your Mobile Detailing Experience</span
+                >
+
+                <span class="text text-2" aria-hidden="true"
+                  >Book Your Mobile Detailing Experience</span
+                >
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#packages" class="hero-btn has-after">
+            <img
+              src="./assets/images/hero-icon.png"
+              width="38"
+              height="38"
+              alt="booking icon"
+            />
+
+            <span class="label-2 text-center span">Schedule Appointment</span>
+          </a>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">Detailing Fit for Royalty</p>
+
+            <h2 class="headline-1 section-title">
+              We Offer Top Notch Auto Detailing
+            </h2>
+
+            <p class="section-text">
+              Transform your vehicle into a masterpiece with our meticulous
+              mobile auto detailing services. Our expert team ensures every inch
+              of your car is pampered to perfection, leaving it looking and
+              feeling brand new. Experience luxury on the go with our premium
+              detailing packages.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/detailing-service-1.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Breakfast"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Interior Detailing</a>
+                    </h3>
+
+                    <a href="#packages" class="btn-text hover-underline label-2"
+                      >Explore Services</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/detailing-service-2.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Appetizers"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Exterior Detailing</a>
+                    </h3>
+
+                    <a href="#packages" class="btn-text hover-underline label-2"
+                      >Explore Services</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/detailing-service-3.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Drinks"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Full Detailing Package</a>
+                    </h3>
+
+                    <a href="#packages" class="btn-text hover-underline label-2"
+                      >Explore Services</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+              <h2 class="headline-1 section-title">
+                Crafting Excellence in Automotive Detailing
+              </h2>
+
+              <p class="section-text">
+                Founded by two college athletes with a deep passion for cars and
+                expertise in mobile detailing, our journey began during our
+                pursuit of degrees—one in computer science and the other in
+                finance. Fueled by our shared love for automotive craftsmanship,
+                we envisioned a business that merges innovation and financial
+                acumen to redefine excellence in the automotive industry. This
+                is our story—a testament to the synergy of diverse backgrounds
+                and a commitment to delivering unparalleled services.
+              </p>
+
+              <div class="contact-label">Book Through Call</div>
+
+              <a
+                href="tel:+18322574528"
+                class="body-1 contact-number hover-underline"
+                >+1 (832) 257 4528</a
+              >
+
+              <a href="#packages" class="btn btn-primary">
+                <span class="text text-1">Get A Quote</span>
+
+                <span class="text text-2" aria-hidden="true">Get A Quote</span>
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.jpg"
+                width="570"
+                height="570"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="./assets/images/about-abs-image.jpg"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+            </figure>
+          </div>
+        </section>
+
+        -->
+
+        <!-- 
+        - #SPECIAL DISH
+      -->
+
+        <section class="special-dish text-center" aria-labelledby="dish-label">
+          <div class="special-dish-banner">
+            <img
+              src="./assets/images/best-seller.jpg"
+              width="940"
+              height="900"
+              loading="lazy"
+              alt="special dish"
+              class="img-cover"
+            />
+          </div>
+
+          <div class="special-dish-content bg-black-10">
+            <div class="container">
+              <p class="section-subtitle label-2">Our Best Seller</p>
+
+              <h2 class="headline-1 section-title">
+                Full Detailing Basic Package
+              </h2>
+
+              <p class="section-text">
+                Treat your vehicle to our deluxe full detailing package,
+                meticulously crafted to bring out its true beauty. From interior
+                to exterior, every corner receives our expert attention,
+                ensuring a showroom-worthy finish.
+              </p>
+
+              <div class="wrapper">
+                <del class="del body-3">$220.00</del>
+
+                <span class="span body-1">$199.99</span>
+              </div>
+
+              <a href="#packages" class="btn btn-primary">
+                <span class="text text-1">View Package</span>
+
+                <span class="text text-2" aria-hidden="true">View Package</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - # PACKAGES
+      -->
+
+        <section class="section menu" aria-label="menu-label" id="packages">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">
+              Versatile Packages
+            </p>
+
+            <h2 class="headline-1 section-title text-center">
+              Explore Our Detailing Plans and Pricing
+            </h2>
+
+            <p class="form-text text-center">
+              Step 1: Choose a location (Houston TX coming soon!)
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <div style="margin: auto">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      onclick="showCarOptionsFortWorth()"
+                    >
+                      <span class="text text-1">Dallas Fort Worth, TX</span>
+
+                      <span class="text text-2" aria-hidden="true"
+                        >Dallas Fort Worth, TX</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+                  <div style="margin: auto">
+                    <!-- onclick="showCarOptionsHouston()" -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      onclick="showCarOptionsHouston()"
+                    >
+                      <span class="text text-1">Houston, TX</span>
+
+                      <span class="text text-2" aria-hidden="true"
+                        >Houston, TX</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!--
+            <section
+              class="section features text-center"
+              id="carOptionsHouston"
+              style="display: none"
+            >
+              <p class="form-text text-center">
+                Step 2: Choose a vehicle (Houston, TX)
+              </p>
+
+              <ul class="grid-list-f">
+                <li class="feature-item" onclick="showCoupeOptionsH()">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-4.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <h3 class="title-2 card-title">Coupe</h3>
+
+                    <p class="label-1 card-text">
+                      Sedan-specific plan, perfect for classic style and
+                      convenience.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="feature-item" onclick="showSedanOptionsH()">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-1.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <h3 class="title-2 card-title">Sedan</h3>
+
+                    <p class="label-1 card-text">
+                      Sedan-specific plan, perfect for classic style and
+                      convenience.
+                    </p>
+                  </div>
+                </li>
+                <li class="feature-item" onclick="showSUVOptionsH()">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-2.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <h3 class="title-2 card-title">SUV</h3>
+
+                    <p class="label-1 card-text">
+                      SUV-focused plan, ideal for spacious, versatile
+                      transportation.
+                    </p>
+                  </div>
+                </li>
+                <li class="feature-item" onclick="showTruckOptionsH()">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-3.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <h3 class="title-2 card-title">Truck</h3>
+
+                    <p class="label-1 card-text">
+                      Truck-oriented plan, tailored for rugged performance and
+                      utility.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            -->
+
+            <section
+              class="section features text-center"
+              id="carOptionsFortWorth"
+              style="display: none"
+            >
+              <p class="form-text text-center">
+                Step 2: Choose a vehicle (Fort Worth, TX)
+              </p>
+
+              <ul class="grid-list-f">
+                <li class="feature-item" onclick="showCoupeOptionsF()">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-4.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <h3 class="title-2 card-title">Coupe</h3>
+
+                    <p class="label-1 card-text">
+                      Coupe-targeted detailing approach, ideal for timeless
+                      elegance and ease.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="feature-item" onclick="showSedanOptionsF()">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-1.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <h3 class="title-2 card-title">Sedan</h3>
+
+                    <p class="label-1 card-text">
+                      Sedan-specific plan, perfect for classic style and
+                      convenience.
+                    </p>
+                  </div>
+                </li>
+                <li class="feature-item" onclick="showSUVOptionsF()">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-2.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <h3 class="title-2 card-title">SUV</h3>
+
+                    <p class="label-1 card-text">
+                      SUV-focused plan, ideal for spacious, versatile
+                      transportation.
+                    </p>
+                  </div>
+                </li>
+                
+
+
+      
+                <li class="feature-item" onclick="showTruckOptionsF()">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-3.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+
+                    <h3 class="title-2 card-title">Truck</h3>
+
+                    <p class="label-1 card-text">
+                      Truck-oriented plan, tailored for rugged performance and
+                      utility.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section id="sedanPackagesH" style="display: none">
+              <p class="form-text text-center">
+                Step 3: Choose a package (Sedan)
+              </p>
+              <ul class="grid-list">
+                <link
+                  href="https://assets.calendly.com/assets/external/widget.css"
+                  rel="stylesheet"
+                />
+                <script
+                  src="https://assets.calendly.com/assets/external/widget.js"
+                  type="text/javascript"
+                  async
+                ></script>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Detail (Basic Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Best Seller</span>
+
+                        <span class="span title-2">$199.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        The "Full Detail Basic Package" service offers a
+                        complete cleaning for your car’s interior and exterior.
+                        Perfect for busy families, this package includes an
+                        exterior foam wash and hand dry, tire scrub and shine,
+                        and rim cleaning. We clean all windows inside and out,
+                        vacuum the entire interior, extract dirt from carpets,
+                        and wipe down and sanitize all surfaces. Enjoy a
+                        spotless, fresh car that makes every ride more pleasant
+                        for you and your kids.
+                      </p>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-basic-package-houston-tx?background_color=0e0d0c&text_color=ffffff&primary_color=6db2d0'});return false;"
+                        class="btn btn-primary"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <link
+                  href="https://assets.calendly.com/assets/external/widget.css"
+                  rel="stylesheet"
+                />
+                <script
+                  src="https://assets.calendly.com/assets/external/widget.js"
+                  type="text/javascript"
+                  async
+                ></script>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Deatil (Premium Package)</a
+                          >
+                        </h3>
+
+                        <span class="span title-2">$229.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        Tomatoes, green bell pepper, sliced cucumber onion,
+                        olives, and feta cheese.
+                      </p>
+
+                      <a
+                        href=""
+                        class="btn btn-primary"
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-sedan-premium-package-houston-tx?background_color=0e0d0c&text_color=ffffff&primary_color=6db2d0'});return false;"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section id="suvPackagesH" style="display: none">
+              <p class="form-text text-center">
+                Step 3: Choose a package (SUV)
+              </p>
+              <ul class="grid-list">
+                <link
+                  href="https://assets.calendly.com/assets/external/widget.css"
+                  rel="stylesheet"
+                />
+                <script
+                  src="https://assets.calendly.com/assets/external/widget.js"
+                  type="text/javascript"
+                  async
+                ></script>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Detail (Basic Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Best Seller</span>
+
+                        <span class="span title-2">$224.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        The "Full Detail Basic Package" service offers a
+                        complete cleaning for your car’s interior and exterior.
+                        Perfect for busy families, this package includes an
+                        exterior foam wash and hand dry, tire scrub and shine,
+                        and rim cleaning. We clean all windows inside and out,
+                        vacuum the entire interior, extract dirt from carpets,
+                        and wipe down and sanitize all surfaces. Enjoy a
+                        spotless, fresh car that makes every ride more pleasant
+                        for you and your kids.
+                      </p>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-suv-basic-package-houston-tx?background_color=0e0d0c&text_color=ffffff&primary_color=6db2d0'});return false;"
+                        class="btn btn-primary"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <link
+                  href="https://assets.calendly.com/assets/external/widget.css"
+                  rel="stylesheet"
+                />
+                <script
+                  src="https://assets.calendly.com/assets/external/widget.js"
+                  type="text/javascript"
+                  async
+                ></script>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Deatil (Premium Package)</a
+                          >
+                        </h3>
+
+                        <span class="span title-2">$259.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        Tomatoes, green bell pepper, sliced cucumber onion,
+                        olives, and feta cheese.
+                      </p>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-suv-premium-package-houston-tx?background_color=0e0d0c&text_color=ffffff&primary_color=6db2d0'});return false;"
+                        class="btn btn-primary"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section id="truckPackagesH" style="display: none">
+              <p class="form-text text-center">
+                Step 3: Choose a package (Truck)
+              </p>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Detail (Basic Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Best Seller</span>
+
+                        <span class="span title-2">$229.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        The "Full Detail Basic Package" service offers a
+                        complete cleaning for your car’s interior and exterior.
+                        Perfect for busy families, this package includes an
+                        exterior foam wash and hand dry, tire scrub and shine,
+                        and rim cleaning. We clean all windows inside and out,
+                        vacuum the entire interior, extract dirt from carpets,
+                        and wipe down and sanitize all surfaces. Enjoy a
+                        spotless, fresh car that makes every ride more pleasant
+                        for you and your kids.
+                      </p>
+
+                      <button type="button" class="btn btn-primary">
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Deatil (Premium Package)</a
+                          >
+                        </h3>
+
+                        <span class="span title-2">$269.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        Tomatoes, green bell pepper, sliced cucumber onion,
+                        olives, and feta cheese.
+                      </p>
+
+                      <button type="button" class="btn btn-primary">
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <!-- FORT WORTH PRICING AND BOOKING!!! ---------------------->
+
+            <section id="coupePackagesF" style="display: none">
+              <p class="form-text text-center">
+                Step 3: Choose a package (Coupe)
+              </p>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Detail (Basic Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Best Seller</span>
+
+                        <span class="span title-2">$174.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        The "Full Detail Basic Package" service offers a
+                        complete cleaning for your car’s interior and exterior.
+                        Perfect for busy families, this package includes an
+                        exterior foam wash and hand dry, tire scrub and shine,
+                        and rim cleaning. We clean all windows inside and out,
+                        vacuum the entire interior, extract dirt from carpets,
+                        and wipe down and sanitize all surfaces. Enjoy a
+                        spotless, fresh car that makes every ride more pleasant
+                        for you and your kids.
+                      </p>
+
+                      <link
+                        href="https://assets.calendly.com/assets/external/widget.css"
+                        rel="stylesheet"
+                      />
+                      <script
+                        src="https://assets.calendly.com/assets/external/widget.js"
+                        type="text/javascript"
+                        async
+                      ></script>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-basic-coupe-dallas-fort-worth-tx?background_color=0e0d0c&text_color=ffffff&primary_color=5ce1e6'});return false;"
+                        class="btn btn-primary"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Deatil (Premium Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Coming soon!</span>
+
+                        <span class="span title-2">$229.99</span>
+                      </div>
+
+                      <p class="card-text label-1">Coming soon!</p>
+                      <!--
+                      <button type="button" class="btn btn-primary">
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </button>
+                      -->
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section id="sedanPackagesF" style="display: none">
+              <p class="form-text text-center">
+                Step 3: Choose a package (Sedan)
+              </p>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Detail (Basic Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Best Seller</span>
+
+                        <span class="span title-2">$199.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        The "Full Detail Basic Package" service offers a
+                        complete cleaning for your car’s interior and exterior.
+                        Perfect for busy families, this package includes an
+                        exterior foam wash and hand dry, tire scrub and shine,
+                        and rim cleaning. We clean all windows inside and out,
+                        vacuum the entire interior, extract dirt from carpets,
+                        and wipe down and sanitize all surfaces. Enjoy a
+                        spotless, fresh car that makes every ride more pleasant
+                        for you and your kids.
+                      </p>
+
+                      <link
+                        href="https://assets.calendly.com/assets/external/widget.css"
+                        rel="stylesheet"
+                      />
+                      <script
+                        src="https://assets.calendly.com/assets/external/widget.js"
+                        type="text/javascript"
+                        async
+                      ></script>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-basic-sedan-dallas-fort-worth-tx?background_color=0e0d0c&text_color=ffffff&primary_color=5ce1e6'});return false;"
+                        class="btn btn-primary"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Deatil (Premium Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Coming soon!</span>
+
+                        <span class="span title-2">$229.99</span>
+                      </div>
+
+                      <p class="card-text label-1">Coming soon!</p>
+                      <!--
+                      <button type="button" class="btn btn-primary">
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </button>
+                      -->
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section id="suvPackagesF" style="display: none">
+              <p class="form-text text-center">
+                Step 3: Choose a package (SUV)
+              </p>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Detail (Basic Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Best Seller</span>
+
+                        <span class="span title-2">$224.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        The "Full Detail Basic Package" service offers a
+                        complete cleaning for your car’s interior and exterior.
+                        Perfect for busy families, this package includes an
+                        exterior foam wash and hand dry, tire scrub and shine,
+                        and rim cleaning. We clean all windows inside and out,
+                        vacuum the entire interior, extract dirt from carpets,
+                        and wipe down and sanitize all surfaces. Enjoy a
+                        spotless, fresh car that makes every ride more pleasant
+                        for you and your kids.
+                      </p>
+
+                      <link
+                        href="https://assets.calendly.com/assets/external/widget.css"
+                        rel="stylesheet"
+                      />
+                      <script
+                        src="https://assets.calendly.com/assets/external/widget.js"
+                        type="text/javascript"
+                        async
+                      ></script>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-basic-suv-dallas-fort-worth-tx?background_color=0e0d0c&text_color=ffffff&primary_color=5ce1e6'});return false;"
+                        class="btn btn-primary"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Deatil (Premium Package)</a
+                          >
+                        </h3>
+                        <span class="badge label-1">Coming soon!</span>
+
+                        <span class="span title-2">$259.99</span>
+                      </div>
+
+                      <p class="card-text label-1">Coming soon!</p>
+                      <!--
+                      <button type="button" class="btn btn-primary">
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </button>
+                      -->
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section id="truckPackagesF" style="display: none">
+              <p class="form-text text-center">
+                Step 3: Choose a package (Truck)
+              </p>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Detail (Basic Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Best Seller</span>
+
+                        <span class="span title-2">$229.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        The "Full Detail Basic Package" service offers a
+                        complete cleaning for your car’s interior and exterior.
+                        Perfect for busy families, this package includes an
+                        exterior foam wash and hand dry, tire scrub and shine,
+                        and rim cleaning. We clean all windows inside and out,
+                        vacuum the entire interior, extract dirt from carpets,
+                        and wipe down and sanitize all surfaces. Enjoy a
+                        spotless, fresh car that makes every ride more pleasant
+                        for you and your kids.
+                      </p>
+
+                      <link
+                        href="https://assets.calendly.com/assets/external/widget.css"
+                        rel="stylesheet"
+                      />
+                      <script
+                        src="https://assets.calendly.com/assets/external/widget.js"
+                        type="text/javascript"
+                        async
+                      ></script>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-basic-truck-dallas-fort-worth-tx?background_color=0e0d0c&text_color=ffffff&primary_color=5ce1e6'});return false;"
+                        class="btn btn-primary"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Deatil (Premium Package)</a
+                          >
+                        </h3>
+                        <span class="badge label-1">Coming Soon!</span>
+                        <span class="span title-2">$269.99</span>
+                      </div>
+
+                      <p class="card-text label-1">Coming soon!</p>
+
+                      <!--
+                      <button type="button" class="btn btn-primary">
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </button>
+                      -->
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <script>
+              function showCarOptionsHouston() {
+                document.getElementById("carOptionsHouston").style.display =
+                  "block";
+                document.getElementById("carOptionsFortWorth").style.display =
+                  "none";
+                document.getElementById("sedanPackagesH").style.display =
+                  "none";
+                document.getElementById("suvPackagesH").style.display = "none";
+                document.getElementById("truckPackagesH").style.display =
+                  "none";
+                document.getElementById("sedanPackagesF").style.display =
+                  "none";
+                document.getElementById("suvPackagesF").style.display = "none";
+                document.getElementById("truckPackagesF").style.display =
+                  "none";
+              }
+              function showCarOptionsFortWorth() {
+                document.getElementById("carOptionsFortWorth").style.display =
+                  "block";
+                document.getElementById("carOptionsHouston").style.display =
+                  "none";
+                document.getElementById("sedanPackagesF").style.display =
+                  "none";
+                document.getElementById("coupePackagesF").style.display =
+                  "none";
+                document.getElementById("suvPackagesF").style.display = "none";
+                document.getElementById("truckPackagesF").style.display =
+                  "none";
+                document.getElementById("sedanPackagesH").style.display =
+                  "none";
+                document.getElementById("suvPackagesH").style.display = "none";
+                document.getElementById("truckPackagesH").style.display =
+                  "none";
+              }
+              function showSedanOptionsH() {
+                document.getElementById("sedanPackagesH").style.display = "";
+
+                document.getElementById("suvPackagesH").style.display = "none";
+                document.getElementById("truckPackagesH").style.display =
+                  "none";
+              }
+              function showSUVOptionsH() {
+                document.getElementById("suvPackagesH").style.display = "";
+
+                document.getElementById("sedanPackagesH").style.display =
+                  "none";
+                document.getElementById("truckPackagesH").style.display =
+                  "none";
+              }
+              function showTruckOptionsH() {
+                document.getElementById("suvPackagesH").style.display = "none";
+
+                document.getElementById("sedanPackagesH").style.display =
+                  "none";
+                document.getElementById("truckPackagesH").style.display = "";
+              }
+              function showCoupeOptionsF() {
+                document.getElementById("coupePackagesF").style.display = "";
+                document.getElementById("sedanPackagesF").style.display =
+                  "none";
+                document.getElementById("suvPackagesF").style.display = "none";
+                document.getElementById("truckPackagesF").style.display =
+                  "none";
+              }
+              function showSedanOptionsF() {
+                document.getElementById("sedanPackagesF").style.display = "";
+                document.getElementById("coupePackagesF").style.display =
+                  "none";
+                document.getElementById("suvPackagesF").style.display = "none";
+                document.getElementById("truckPackagesF").style.display =
+                  "none";
+              }
+              function showSUVOptionsF() {
+                document.getElementById("suvPackagesF").style.display = "";
+                document.getElementById("coupePackagesF").style.display =
+                  "none";
+                document.getElementById("sedanPackagesF").style.display =
+                  "none";
+                document.getElementById("truckPackagesF").style.display =
+                  "none";
+              }
+              function showTruckOptionsF() {
+                document.getElementById("suvPackagesF").style.display = "none";
+                document.getElementById("coupePackagesF").style.display =
+                  "none";
+                document.getElementById("sedanPackagesF").style.display =
+                  "none";
+                document.getElementById("truckPackagesF").style.display = "";
+              }
+            </script>
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section
+          class="section testi text-center has-bg-image"
+          style="background-image: url('./assets/images/testimonial-bg.jpg')"
+          aria-label="testimonials"
+        >
+          <div class="container">
+            <div class="quote">”</div>
+
+            <p class="headline-2 testi-text">
+              Car looked amazing afterwards, their attention to detail was amazing and I would recommend these guys to anyone!
+            </p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <!--
+            <div class="profile">
+              <img
+                src="./assets/images/testi-avatar.jpg"
+                width="100"
+                height="100"
+                loading="lazy"
+                alt="Sam Jhonson"
+                class="img"
+              />
+            -->
+              <p class="label-2 profile-name">Sammuel Carter</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <p class="section-subtitle label-2">Why Choose Us</p>
+
+            <h2 class="headline-1 section-title">Our Strengths</h2>
+
+            <ul class="grid-list-f">
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/equipment.png"
+                      width="70"
+                      height="50"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Professional Equipment</h3>
+
+                  <p class="label-1 card-text">
+                    We use updated equipment to ensure thorough and efficient
+                    cleaning.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/detail.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Attention to Detail</h3>
+
+                  <p class="label-1 card-text">
+                    We meticulously clean every nook and cranny, leaving your
+                    vehicle spotless.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/staff.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Experienced Staff</h3>
+
+                  <p class="label-1 card-text">
+                    Our skilled technicians have years of experience in auto
+                    detailing, ensuring top-notch results.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/packages.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Customized Packages</h3>
+
+                  <p class="label-1 card-text">
+                    We offer tailored detailing packages to suit your specific
+                    needs and budget.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url('./assets/images/footer-bg.jpg')"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.png"
+                width="300"
+                height="80"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              Dallas Fort Worth and Houston TX, United States
+            </address>
+
+            <a href="mailto:hydroshinespa@gmail.com" class="body-4 contact-link"
+              >hydroshinespa@gmail.com</a
+            >
+
+            <a href="tel:+18322574528" class="body-4 contact-link"
+              >Booking Request : +1 832 257 4528</a
+            >
+
+            <p class="body-4">Open : 07:30 am - 06:30 pm</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Get Goode Deals & Offers</p>
+
+            <p class="label-1">
+              Book First Time & Get <span class="span">25% Off.</span>
+            </p>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+
+            <li>
+              <a href="#packages" class="label-2 footer-link hover-underline"
+                >Packages</a
+              >
+            </li>
+
+            <li>
+              <a href="#about" class="label-2 footer-link hover-underline"
+                >About Us</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=61558563377831" target="_blank" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/hydroshine.spa/" target="_blank" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+            <li>
+              <a href="https://www.google.com/search?q=fort+worth+google+maps&rlz=1C1RXMK_enUS1081US1081&oq=fort+worth+google+m&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPKgCALACAA&sourceid=chrome&ie=UTF-8" target="_blank" class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2024 Hydroshine Auto Spa. All Rights Reserved | Developed by
+            <a
+              href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+              target="_blank"
+              class="link"
+              >Francisco Castillo</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCuByr5EWal0BjdXXrE3vJpMaVv7WrlCMw",
+        authDomain: "hydroshine-6afd4.firebaseapp.com",
+        projectId: "hydroshine-6afd4",
+        storageBucket: "hydroshine-6afd4.appspot.com",
+        messagingSenderId: "49846526285",
+        appId: "1:49846526285:web:d4fb4a4467a27aecd09704",
+        measurementId: "G-2Y05KSNP7B"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
+  </body>
+</html>
