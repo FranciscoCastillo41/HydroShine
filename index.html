@@ -615,40 +615,43 @@
               <li>
                 <div class="menu-card hover:card">
                   <div style="margin: auto">
-                    <button
-                      type="button"
-                      class="btn btn-primary"
-                      onclick="showCarOptionsFortWorth()"
-                    >
-                      <span class="text text-1">Dallas Fort Worth, TX</span>
-
-                      <span class="text text-2" aria-hidden="true"
-                        >Dallas Fort Worth, TX</span
+                    <a href="#carOptionsFortWorth">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        onclick="showCarOptionsFortWorth()"
                       >
-                    </button>
+                        <span class="text text-1">Dallas Fort Worth, TX</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Dallas Fort Worth, TX</span
+                        >
+                      </button>
+                  </a>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="menu-card hover:card">
                   <div style="margin: auto">
-                    <!-- onclick="showCarOptionsHouston()" -->
-                    <button
-                      type="button"
-                      class="btn btn-primary"
-                      onclick="showCarOptionsHouston()"
-                    >
-                      <span class="text text-1">Houston, TX</span>
-
-                      <span class="text text-2" aria-hidden="true"
-                        >Houston, TX</span
+                    <a href="#carOptionsHouston">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        onclick="showCarOptionsHouston()"
                       >
-                    </button>
+                        <span class="text text-1">Houston, TX</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Houston, TX</span
+                        >
+                      </button>
+                    </a>
                   </div>
                 </div>
               </li>
             </ul>
-            <!--
+            
             <section
               class="section features text-center"
               id="carOptionsHouston"
@@ -658,92 +661,103 @@
                 Step 2: Choose a vehicle (Houston, TX)
               </p>
 
+              
               <ul class="grid-list-f">
-                <li class="feature-item" onclick="showCoupeOptionsH()">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <img
-                        src="./assets/images/features-icon-4.png"
-                        width="100"
-                        height="80"
-                        loading="lazy"
-                        alt="icon"
-                      />
+                <a href="#coupePackagesH">
+                  <li class="feature-item" onclick="showCoupeOptionsH()">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <img
+                          src="./assets/images/features-icon-4.png"
+                          width="100"
+                          height="80"
+                          loading="lazy"
+                          alt="icon"
+                        />
+                      </div>
+
+                      <h3 class="title-2 card-title">Coupe</h3>
+
+                      <p class="label-1 card-text">
+                        Sedan-specific plan, perfect for classic style and
+                        convenience.
+                      </p>
                     </div>
+                  </li>
+                </a>
 
-                    <h3 class="title-2 card-title">Coupe</h3>
+                <a href="#sedanPackagesH">
+                  <li class="feature-item" onclick="showSedanOptionsH()">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <img
+                          src="./assets/images/features-icon-1.png"
+                          width="100"
+                          height="80"
+                          loading="lazy"
+                          alt="icon"
+                        />
+                      </div>
 
-                    <p class="label-1 card-text">
-                      Sedan-specific plan, perfect for classic style and
-                      convenience.
-                    </p>
-                  </div>
-                </li>
+                      <h3 class="title-2 card-title">Sedan</h3>
 
-                <li class="feature-item" onclick="showSedanOptionsH()">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <img
-                        src="./assets/images/features-icon-1.png"
-                        width="100"
-                        height="80"
-                        loading="lazy"
-                        alt="icon"
-                      />
+                      <p class="label-1 card-text">
+                        Sedan-specific plan, perfect for classic style and
+                        convenience.
+                      </p>
                     </div>
+                  </li>
+                </a>
 
-                    <h3 class="title-2 card-title">Sedan</h3>
+                <a href="#suvPackagesH">
+                  <li class="feature-item" onclick="showSUVOptionsH()">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <img
+                          src="./assets/images/features-icon-2.png"
+                          width="100"
+                          height="80"
+                          loading="lazy"
+                          alt="icon"
+                        />
+                      </div>
 
-                    <p class="label-1 card-text">
-                      Sedan-specific plan, perfect for classic style and
-                      convenience.
-                    </p>
-                  </div>
-                </li>
-                <li class="feature-item" onclick="showSUVOptionsH()">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <img
-                        src="./assets/images/features-icon-2.png"
-                        width="100"
-                        height="80"
-                        loading="lazy"
-                        alt="icon"
-                      />
+                      <h3 class="title-2 card-title">SUV</h3>
+
+                      <p class="label-1 card-text">
+                        SUV-focused plan, ideal for spacious, versatile
+                        transportation.
+                      </p>
                     </div>
+                  </li>
+                </a>
 
-                    <h3 class="title-2 card-title">SUV</h3>
+                <a href="#truckPackagesH">
+                  <li class="feature-item" onclick="showTruckOptionsH()">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <img
+                          src="./assets/images/features-icon-3.png"
+                          width="100"
+                          height="80"
+                          loading="lazy"
+                          alt="icon"
+                        />
+                      </div>
 
-                    <p class="label-1 card-text">
-                      SUV-focused plan, ideal for spacious, versatile
-                      transportation.
-                    </p>
-                  </div>
-                </li>
-                <li class="feature-item" onclick="showTruckOptionsH()">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <img
-                        src="./assets/images/features-icon-3.png"
-                        width="100"
-                        height="80"
-                        loading="lazy"
-                        alt="icon"
-                      />
+                      <h3 class="title-2 card-title">Truck</h3>
+
+                      <p class="label-1 card-text">
+                        Truck-oriented plan, tailored for rugged performance and
+                        utility.
+                      </p>
                     </div>
-
-                    <h3 class="title-2 card-title">Truck</h3>
-
-                    <p class="label-1 card-text">
-                      Truck-oriented plan, tailored for rugged performance and
-                      utility.
-                    </p>
-                  </div>
-                </li>
+                  </li>
+                </a>
               </ul>
             </section>
 
-            -->
+            
 
             <section
               class="section features text-center"
@@ -755,91 +769,98 @@
               </p>
 
               <ul class="grid-list-f">
-                <li class="feature-item" onclick="showCoupeOptionsF()">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <img
-                        src="./assets/images/features-icon-4.png"
-                        width="100"
-                        height="80"
-                        loading="lazy"
-                        alt="icon"
-                      />
-                    </div>
-
-                    <h3 class="title-2 card-title">Coupe</h3>
-
-                    <p class="label-1 card-text">
-                      Coupe-targeted detailing approach, ideal for timeless
-                      elegance and ease.
-                    </p>
-                  </div>
-                </li>
-
-                <li class="feature-item" onclick="showSedanOptionsF()">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <img
-                        src="./assets/images/features-icon-1.png"
-                        width="100"
-                        height="80"
-                        loading="lazy"
-                        alt="icon"
-                      />
-                    </div>
-
-                    <h3 class="title-2 card-title">Sedan</h3>
-
-                    <p class="label-1 card-text">
-                      Sedan-specific plan, perfect for classic style and
-                      convenience.
-                    </p>
-                  </div>
-                </li>
-                <li class="feature-item" onclick="showSUVOptionsF()">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <img
-                        src="./assets/images/features-icon-2.png"
-                        width="100"
-                        height="80"
-                        loading="lazy"
-                        alt="icon"
-                      />
-                    </div>
-
-                    <h3 class="title-2 card-title">SUV</h3>
-
-                    <p class="label-1 card-text">
-                      SUV-focused plan, ideal for spacious, versatile
-                      transportation.
-                    </p>
-                  </div>
-                </li>
                 
+                <a href="#coupePackagesF">
+                  <li class="feature-item" onclick="showCoupeOptionsF()">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <img
+                          src="./assets/images/features-icon-4.png"
+                          width="100"
+                          height="80"
+                          loading="lazy"
+                          alt="icon"
+                        />
+                      </div>
 
+                      <h3 class="title-2 card-title">Coupe</h3>
 
-      
-                <li class="feature-item" onclick="showTruckOptionsF()">
-                  <div class="feature-card">
-                    <div class="card-icon">
-                      <img
-                        src="./assets/images/features-icon-3.png"
-                        width="100"
-                        height="80"
-                        loading="lazy"
-                        alt="icon"
-                      />
+                      <p class="label-1 card-text">
+                        Coupe-targeted detailing approach, ideal for timeless
+                        elegance and ease.
+                      </p>
                     </div>
+                  </li>
+                </a>
 
-                    <h3 class="title-2 card-title">Truck</h3>
+                <a href="#sedanPackagesF">
+                  <li class="feature-item" onclick="showSedanOptionsF()">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <img
+                          src="./assets/images/features-icon-1.png"
+                          width="100"
+                          height="80"
+                          loading="lazy"
+                          alt="icon"
+                        />
+                      </div>
 
-                    <p class="label-1 card-text">
-                      Truck-oriented plan, tailored for rugged performance and
-                      utility.
-                    </p>
-                  </div>
-                </li>
+                      <h3 class="title-2 card-title">Sedan</h3>
+
+                      <p class="label-1 card-text">
+                        Sedan-specific plan, perfect for classic style and
+                        convenience.
+                      </p>
+                    </div>
+                  </li>
+                </a>
+
+                <a href="#suvPackagesF">
+                  <li class="feature-item" onclick="showSUVOptionsF()">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <img
+                          src="./assets/images/features-icon-2.png"
+                          width="100"
+                          height="80"
+                          loading="lazy"
+                          alt="icon"
+                        />
+                      </div>
+
+                      <h3 class="title-2 card-title">SUV</h3>
+
+                      <p class="label-1 card-text">
+                        SUV-focused plan, ideal for spacious, versatile
+                        transportation.
+                      </p>
+                    </div>
+                  </li>
+                </a>
+                
+                <a href="#truckPackagesF">
+                  <li class="feature-item" onclick="showTruckOptionsF()">
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <img
+                          src="./assets/images/features-icon-3.png"
+                          width="100"
+                          height="80"
+                          loading="lazy"
+                          alt="icon"
+                        />
+                      </div>
+
+                      <h3 class="title-2 card-title">Truck</h3>
+
+                      <p class="label-1 card-text">
+                        Truck-oriented plan, tailored for rugged performance and
+                        utility.
+                      </p>
+                    </div>
+                  </li>
+                </a>
               </ul>
             </section>
 
