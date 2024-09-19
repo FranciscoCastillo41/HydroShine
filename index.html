@@ -282,11 +282,11 @@
 
               <a href="#packages" class="btn btn-primary slider-reveal">
                 <span class="text text-1"
-                  >Explore Our Mobile Car Detailing Services</span
+                  >Explore Detailing Services</span
                 >
 
                 <span class="text text-2" aria-hidden="true"
-                  >Explore Our Mobile Car Detailing Services</span
+                  >Explore Detailing Services</span
                 >
               </a>
             </li>
@@ -317,11 +317,11 @@
 
               <a href="#packages" class="btn btn-primary slider-reveal">
                 <span class="text text-1"
-                  >Book Your Mobile Detailing Experience</span
+                  >Book Detail Now</span
                 >
 
                 <span class="text text-2" aria-hidden="true"
-                  >Book Your Mobile Detailing Experience</span
+                  >Book Detail Now</span
                 >
               </a>
             </li>
@@ -863,6 +863,96 @@
               </ul>
             </section>
 
+            <!-- HOUSTON PACKAGES ---------------------------------->
+
+            <section id="coupePackagesH" style="display: none">
+              <p class="form-text text-center">
+                Step 3: Choose a package (Coupe)
+              </p>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Detail (Basic Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Best Seller</span>
+
+                        <span class="span title-2">$174.99</span>
+                      </div>
+
+                      <p class="card-text label-1">
+                        The "Full Detail Basic Package" service offers a
+                        complete cleaning for your car’s interior and exterior.
+                        Perfect for busy families, this package includes an
+                        exterior foam wash and hand dry, tire scrub and shine,
+                        and rim cleaning. We clean all windows inside and out,
+                        vacuum the entire interior, extract dirt from carpets,
+                        and wipe down and sanitize all surfaces. Enjoy a
+                        spotless, fresh car that makes every ride more pleasant
+                        for you and your kids.
+                      </p>
+
+                      <link
+                        href="https://assets.calendly.com/assets/external/widget.css"
+                        rel="stylesheet"
+                      />
+                      <script
+                        src="https://assets.calendly.com/assets/external/widget.js"
+                        type="text/javascript"
+                        async
+                      ></script>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-basic-coupe-dallas-fort-worth-tx?background_color=0e0d0c&text_color=ffffff&primary_color=5ce1e6'});return false;"
+                        class="btn btn-primary"
+                      >
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title"
+                            >Full Deatil (Premium Package)</a
+                          >
+                        </h3>
+
+                        <span class="badge label-1">Coming soon!</span>
+
+                        <span class="span title-2">$229.99</span>
+                      </div>
+
+                      <p class="card-text label-1">Coming soon!</p>
+                      <!--
+                      <button type="button" class="btn btn-primary">
+                        <span class="text text-1">Book Now</span>
+
+                        <span class="text text-2" aria-hidden="true"
+                          >Book Now</span
+                        >
+                      </button>
+                      -->
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
             <section id="sedanPackagesH" style="display: none">
               <p class="form-text text-center">
                 Step 3: Choose a package (Sedan)
@@ -871,8 +961,6 @@
                       
               <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
               <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-
-<!-- Calendly link widget end -->
 
                 <li>
                   <div class="menu-card hover:card">
@@ -1094,13 +1182,20 @@
                         for you and your kids.
                       </p>
 
-                      <button type="button" class="btn btn-primary">
+                      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+                      <a
+                        href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hydroshinespa/full-detail-basic-truck-houston-tx?background_color=0e0d0c&text_color=ffffff&primary_color=5ce1e6'});return false;"
+                        class="btn btn-primary"
+                      >
                         <span class="text text-1">Book Now</span>
 
                         <span class="text text-2" aria-hidden="true"
                           >Book Now</span
                         >
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -1114,13 +1209,13 @@
                             >Full Deatil (Premium Package)</a
                           >
                         </h3>
-
+                        <span class="badge label-1">Coming Soon!</span>
                         <span class="span title-2">$269.99</span>
                       </div>
 
                       <p class="card-text label-1">Coming soon!</p>
 
-                      <!-- 
+                      <!--
                       <button type="button" class="btn btn-primary">
                         <span class="text text-1">Book Now</span>
 
@@ -1487,6 +1582,8 @@
               </ul>
             </section>
 
+            <!-- SHOW CAR OPTIONS ------------------------------------------>
+
             <script>
               function showCarOptionsHouston() {
                 document.getElementById("carOptionsHouston").style.display =
@@ -1494,6 +1591,10 @@
                 document.getElementById("carOptionsFortWorth").style.display =
                   "none";
                 document.getElementById("sedanPackagesH").style.display =
+                  "none";
+                document.getElementById("coupePackagesH").style.display =
+                  "none";
+                document.getElementById("coupePackagesF").style.display =
                   "none";
                 document.getElementById("suvPackagesH").style.display = "none";
                 document.getElementById("truckPackagesH").style.display =
@@ -1521,6 +1622,9 @@
                 document.getElementById("suvPackagesH").style.display = "none";
                 document.getElementById("truckPackagesH").style.display =
                   "none";
+                document.getElementById("coupePackagesH").style.display =
+                  "none";
+
               }
               function showSedanOptionsH() {
                 document.getElementById("sedanPackagesH").style.display = "";
@@ -1528,6 +1632,9 @@
                 document.getElementById("suvPackagesH").style.display = "none";
                 document.getElementById("truckPackagesH").style.display =
                   "none";
+                document.getElementById("coupePackagesH").style.display =
+                  "none";
+                
               }
               function showSUVOptionsH() {
                 document.getElementById("suvPackagesH").style.display = "";
@@ -1536,6 +1643,8 @@
                   "none";
                 document.getElementById("truckPackagesH").style.display =
                   "none";
+                document.getElementById("coupePackagesF").style.display =
+                  "none";
               }
               function showTruckOptionsH() {
                 document.getElementById("suvPackagesH").style.display = "none";
@@ -1543,6 +1652,8 @@
                 document.getElementById("sedanPackagesH").style.display =
                   "none";
                 document.getElementById("truckPackagesH").style.display = "";
+                document.getElementById("coupePackagesF").style.display =
+                  "none";
               }
               function showCoupeOptionsF() {
                 document.getElementById("coupePackagesF").style.display = "";
@@ -1552,6 +1663,15 @@
                 document.getElementById("truckPackagesF").style.display =
                   "none";
               }
+              function showCoupeOptionsH() {
+                document.getElementById("coupePackagesH").style.display = "";
+                document.getElementById("sedanPackagesH").style.display =
+                  "none";
+                document.getElementById("suvPackagesH").style.display = "none";
+                document.getElementById("truckPackagesH").style.display =
+                  "none";
+              }
+
               function showSedanOptionsF() {
                 document.getElementById("sedanPackagesF").style.display = "";
                 document.getElementById("coupePackagesF").style.display =
@@ -1810,8 +1930,8 @@
               >
             </li>
             <li>
-              <a href="https://www.google.com/search?q=fort+worth+google+maps&rlz=1C1RXMK_enUS1081US1081&oq=fort+worth+google+m&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPKgCALACAA&sourceid=chrome&ie=UTF-8" target="_blank" class="label-2 footer-link hover-underline"
-                >Google Map</a
+              <a href="https://www.google.com/search?q=Hydroshine+Auto+Spa+Mobile+Detailing&stick=H4sIAAAAAAAA_-NgU1I1qLAwM0k1N0xLNjQ1TzEzMk2yMqgwNEoxNksySE1JTUoyMEpMXMSq4lGZUpRfnJGZl6rgWFqSrxBckKjgm5-UmZOq4JJakpiZk5mXDgAQJGNlUAAAAA&hl=en-US&mat=CSm5JqpmhGaeElcBEKoLacLvlp2GHtWhkoODa1DKiinneh0KKBCG6J3fc_GDAboFQZvuGAvysSzc78tOm0L1b9M1tZzdztEoqsQHinfwttrKSNt0Tj0btVvJqrQp_7FKGCU&authuser=0&ved=2ahUKEwilxr_Yjs6IAxVopIkEHUWvNuQQ-MgIegQINRAd" target="_blank" class="label-2 footer-link hover-underline"
+                >Google Profile</a
               >
             </li>
           </ul>
