@@ -162,6 +162,9 @@ address { font-style: normal; }
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+
+  /* ADD TO FIX NAVBAR ISSUES */
+  overflow-y: auto !important;
 }
 
 body {
@@ -173,6 +176,8 @@ body {
   line-height: var(--lineHeight-5);
   overflow: hidden;
   height: 300vh;
+  /* ADD TO FIX NAVBAR ISSUES */
+  overflow-y: auto !important;
 }
 
 body.loaded { overflow: overlay; }
@@ -663,6 +668,9 @@ body.nav-active { overflow: hidden; }
   visibility: hidden;
   z-index: 2;
   transition: var(--transition-2);
+
+  /* ADD THE FIX HERE */
+  touch-action: auto;
 }
 
 .navbar.active {
